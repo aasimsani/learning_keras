@@ -1,0 +1,1 @@
+python3 -m kaggle datasets download -d crawford/cat-dataset -p ./dataset
