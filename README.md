@@ -30,3 +30,32 @@ Trainable params: 204,082
 Non-trainable params: 0
 _________________________________________________________________
 ````
+## How to train?
+
+1) Clone this repository
+2) Run ``` pip3 install -r requirements.txt```
+3) Make a folder called ```dataset/``` in the root of this repository
+
+### If you want to retrain with the same dataset
+4) Setup the kaggle API https://github.com/Kaggle/kaggle-api
+5a) If the kaggle API is setup and works run ```download_data.sh```
+5b) If it doen't work download the dataset from here: https://www.kaggle.com/iarunava/happy-house-dataset 
+6) Once the ```dataset/``` folder has the Happy house dataset files you can run ```model.py```
+
+### If you want to use your own dataset
+4) Parse your images into (64,64,3) numpy arrays
+5) Create a hdf5 file of the dataset. Split it into train and test files and place them in the datasets folder
+6) You can adjust the dataset paths in the ```helper.py``` file's ```data()``` function
+7) Once all of this is done just run ```model.py```
+
+## How to predict?
+1) Just run ```predict.py``` and it'll access your webcame via OpenCV
+
+NOTE: If you have your own model and want to use it for prediction. It'll be stored in the ```models/```
+
+## Extras
+
+I highly recommend using [Comet ML](https://www.comet.ml/) to train and iterate. It saves a lot of time.
+
+You can create a file called ```config.py``` and place the API key for your project in a variable named ```COMET_API_KEY``` and the model.py file will automatically use it.
+
