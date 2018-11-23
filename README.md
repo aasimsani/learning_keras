@@ -38,8 +38,9 @@ _________________________________________________________________
 
 ### If you want to retrain with the same dataset
 4) Setup the kaggle API https://github.com/Kaggle/kaggle-api
-5a) If the kaggle API is setup and works run ```download_data.sh```
-5b) If it doen't work download the dataset from here: https://www.kaggle.com/iarunava/happy-house-dataset 
+5) 
+- If the kaggle API is setup and works run ```download_data.sh```
+-  If it doen't work download the dataset from here: https://www.kaggle.com/iarunava/happy-house-dataset 
 6) Once the ```dataset/``` folder has the Happy house dataset files you can run ```model.py```
 
 ### If you want to use your own dataset
