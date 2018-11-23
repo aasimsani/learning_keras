@@ -1,0 +1,5 @@
+tensorflow
+hyperas
+h5py
+numpy
+comet_ml
