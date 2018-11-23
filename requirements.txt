@@ -3,3 +3,5 @@ hyperas
 h5py
 numpy
 comet_ml
+opencv-contrib-python
+dlib
