@@ -1,5 +1,5 @@
 # A small experiment with the Happy house dataset
-An experiment to learn Keras on a bored evening when I wanted to understand how I could work on ML faster
+An experiment to learn Keras on a bored evening to understand how I could work on ML faster
 
 
 Here's the Keras summary for the rudimentary CNN for the Happy house project
@@ -38,9 +38,8 @@ _________________________________________________________________
 
 ### If you want to retrain with the same dataset
 4) Setup the kaggle API https://github.com/Kaggle/kaggle-api
-5) 
-- If the kaggle API is setup and works run ```download_data.sh```
--  If it doen't work download the dataset from here: https://www.kaggle.com/iarunava/happy-house-dataset 
+  - If the kaggle API is setup and works run ```download_data.sh```
+  - If it doen't work download the dataset from here: https://www.kaggle.com/iarunava/happy-house-dataset 
 6) Once the ```dataset/``` folder has the Happy house dataset files you can run ```model.py```
 
 ### If you want to use your own dataset
@@ -50,7 +49,7 @@ _________________________________________________________________
 7) Once all of this is done just run ```model.py```
 
 ## How to predict?
-1) Just run ```predict.py``` and it'll access your webcame via OpenCV
+1) Just run ```predict.py``` and it'll access your webcam via OpenCV
 
 NOTE: If you have your own model and want to use it for prediction. It'll be stored in the ```models/```
 
